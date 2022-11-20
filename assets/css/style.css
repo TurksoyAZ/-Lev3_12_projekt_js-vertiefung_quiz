@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* for Jasvascript */
+
+.forImg {
+  margin-top: 70px;
+}
+
+.forContent {
+  width: 100%;
+  text-align: center;
+}
+
+.forQuestion {
+  font-size: 30px;
+  margin-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.forBtn {
+  width: 12rem;
+  height: 5rem;
+  font-size: 25px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: rgb(201, 239, 247);
+  margin: 15px;
+  transition: 0.3s ease;
+}
+
+.forBtn:hover {
+  transform: scale(1.1);
+  box-shadow: rgb(176, 176, 176) 0 0 5px;
+}
+
+.bckColorRed {
+  background-color: rgb(255, 0, 0);
+}
